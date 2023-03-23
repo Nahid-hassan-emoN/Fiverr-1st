@@ -123,17 +123,18 @@ p {
 }
 
 .btn1 {
-    width: 150px;
-    font-weight: 600;
+    width: 250px;
+    min-height: 60px;
+    font-weight: 800;
     font-size: medium;
     text-transform: uppercase;
     padding-top: 8px;
     margin-bottom: 20px;
-    color: #ffd60a;
-    background: #0077b6;
-    border: 1px solid #ffd60a;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px #0077b6;
+    color: #000000;
+    background: #4fd1c5;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px #2e857c;
     padding: 5px;
 }
 
@@ -143,9 +144,9 @@ p {
     transition: 1s;
     border: none;
     text-transform: uppercase;
-    background: #ffd60a;
-    color: #0077b6;
-    border: 1px solid #0077b6;
+    background: #4fd1c5;
+    color: #000000;
+    border: none;
     transform: translateY(-0.25em);
     cursor: pointer;
 }
@@ -154,16 +155,6 @@ p {
     margin-top: 140PX;
 }
 
-.add-option {
-    margin-top: 30px;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 5px;
-    border: 1px solid #0162c8;
-    border-radius: 20px;
-    color: #0162c8;
-    transition: 1s;
-}
 
 
 
