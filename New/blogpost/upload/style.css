@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #d0d2d8;
+}
+
+nav img {
+    display: block;
+    margin: 25px auto;
+
+}
+
+nav {
+
+    padding: 5px;
+}
+
+::selection {
+    color: #fff;
+    background: #6990F2;
+}
+
+.wrapper {
+    min-width: 70%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 41px 41px 82px #8b8888,
+        -41px -41px 82px #cac9c9;
+}
+
+.wrapper header {
+    color: #161414;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrapper form {
+    height: 200px;
+    display: flex;
+    cursor: pointer;
+    margin: 30px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #6990F2;
+}
+
+form :where(i, p) {
+    color: #6990F2;
+}
+
+form i {
+    font-size: 50px;
+}
+
+form p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+section .row {
+    margin-bottom: 10px;
+    background: #E9F0FF;
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .row i {
+    color: #6990F2;
+    font-size: 30px;
+}
+
+section .details span {
+    font-size: 14px;
+}
+
+.progress-area .row .content {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.progress-area .details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    justify-content: space-between;
+}
+
+.progress-area .content .progress-bar {
+    height: 6px;
+    width: 100%;
+    margin-bottom: 4px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+.content .progress-bar .progress {
+    height: 100%;
+    width: 0%;
+    background: #6990F2;
+    border-radius: inherit;
+}
+
+.uploaded-area {
+    max-height: 232px;
+    overflow-y: scroll;
+}
+
+.uploaded-area.onprogress {
+    max-height: 150px;
+}
+
+.uploaded-area::-webkit-scrollbar {
+    width: 0px;
+}
+
+.uploaded-area .row .content {
+    display: flex;
+    align-items: center;
+}
+
+.uploaded-area .row .details {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+.uploaded-area .row .details .size {
+    color: #404040;
+    font-size: 11px;
+}
+
+.uploaded-area i.fa-check {
+    font-size: 16px;
+}
+
+/* button css */
+.submit-btn {
+    margin: 30px 33%;
+}
+
+.btn1 {
+    width: 150px;
+    display: block; 
+    margin: 15px auto; 
+    font-weight: 600;
+    font-size: medium;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+    color: #ffd60a;
+    background: #0077b6;
+    border: 1px solid #ffd60a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #0077b6;
+    padding: 5px;
+}
+
+.btn1:hover,
+.btn1:focus,
+.btn1:active {
+    transition: 1s;
+    border: none;
+    text-transform: uppercase;
+    background: #ffd60a;
+    color: #0077b6;
+    border: 1px solid #0077b6;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.form-group-first {
+    margin-top: 140PX;
+}
+
+.add-option {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    border: 1px solid #0162c8;
+    border-radius: 20px;
+    color: #0162c8;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+/* ------------responsiveness------------ */
+@media (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+    }
+    .submit-btn{
+        display: block;
+        margin: 15px auto;
+    }
+}
