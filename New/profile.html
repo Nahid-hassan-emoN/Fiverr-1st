@@ -54,15 +54,25 @@
                     </a>
                 </li>
                 <li>
-                    <a href="" id="">
+
+                    <a href="#" onclick="toggleMenus()">
                         <img src="images/message.png" alt="">
                         <span>
                             Message
                         </span>
                     </a>
+
+
                 </li>
             </ul>
+            <!-- ------------message--------- -->
+
+
+
+
         </div>
+
+
 
 
         <div class="navbar-right">
@@ -253,7 +263,41 @@
         <!-- /* ------------Profile-sidebar---------- */ -->
 
         <div class="profile-sidebar">
-            
+            <div class="msg-list" id="messages">
+                <div class="sidebar-title">
+                    <h4>Message</h4>
+                    <a href="">Hide Chat</a>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-1.png" alt="">
+                    </div>
+                    <p>Alisa Silverstoun</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-2.png" alt="">
+                    </div>
+                    <p>Dotty</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-3.png" alt="">
+                    </div>
+                    <p>Anabel Ory</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="images/member-3.png" alt="">
+                    </div>
+                    <p>Anabel Ory</p>
+                </div><div class="online-list">
+                    <div class="online">
+                        <img src="images/member-3.png" alt="">
+                    </div>
+                    <p>Anabel Ory</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -279,12 +323,8 @@
 
 
 
-    <script>
-        let profileMenu = document.getElementById("profileMenu");
+    <script src="script.js">
 
-        function toggleMenu() {
-            profileMenu.classList.toggle("open-menu");
-        }
     </script>
 </body>
 

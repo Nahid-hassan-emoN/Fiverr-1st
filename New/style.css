@@ -47,6 +47,7 @@ a {
     display: flex;
     align-items: center;
     padding: 0 15px;
+    cursor: pointer;
 }
 
 .search-box img {
@@ -144,7 +145,9 @@ a {
 
 .profile-menu-wrap.open-menu {
     max-height: 400px;
+
 }
+
 
 
 .profile-menu {
@@ -344,7 +347,8 @@ a {
     position: sticky;
     top: 73px;
 }
-.online-list{
+
+.online-list {
     cursor: pointer;
 }
 
@@ -357,22 +361,26 @@ a {
     justify-content: space-between;
     margin-bottom: 18px;
 }
+
 .sidebar-title h4 {
     font-weight: 600;
     font-size: 14px;
     color: #363C4E;
 }
+
 .sidebar-title a {
     text-decoration: none;
     color: #1876f2;
     font-size: 12px;
 }
+
 .online-list {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 
 }
+
 .online-list .online img {
     width: 40px;
     border-radius: 50%;
@@ -400,6 +408,11 @@ a {
     background: #fff;
     padding: 10px 25px;
     margin-bottom: 10px;
+}
+.msg-list h4{
+    color: #000000;
+    cursor: pointer;
+    text-align: center;
 }
 
 
@@ -852,25 +865,55 @@ a {
     justify-content: flex-start;
 
 }
-#showMoreLink{
+
+#showMoreLink {
     display: none;
 }
 
 
 /* -----responsiveness----- */
-@media only screen and (max-width:600px) {
+@media screen and (max-width: 1600px) {
     .search-box {
         background: transparent;
-        width: auto;
+        width: 10px;
         padding: 0;
     }
 
     .search-box input {
-        width: 0;
+        width: 50px;
+        padding: 5px;
+    }
+
+
+    .navbar-center ul li a {
+        padding-right: 0;
+        margin: 5px;
+
+    }
+
+    .nav-profile-img {
+        width: 30px;
+    }
+
+    .logo {
+        zoom: 150%;
+        margin-right: 3px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:800px) {
+    .search-box {
+        background: transparent;
+        width: 10px;
         padding: 0;
     }
-    #msg{
-        margin-right: 6px;
+
+    .search-box input {
+        width: 10px;
     }
 
     .navbar-center ul li a span {
@@ -934,22 +977,46 @@ a {
         width: 45vw;
     }
 
-    #showMoreLink{
+    #showMoreLink {
         display: block;
         width: fit-content;
         margin: 10px auto;
         font-size: 14px;
         cursor: pointer;
     }
-    .sidebar-activity{
-        display: none; 
+
+    .sidebar-activity {
+        display: none;
     }
-    .sidebar-activity.open-activity{
+
+    .sidebar-activity.open-activity {
         display: block;
-         
+
     }
 
+    .msg-list {
+        display: none;
+    }
 
-
+    .msg-list.open-messages {
+        display: block;
+        position: fixed;
+        background: #000000;
+        top: 65px;
+        right: 0;
+        color: #fff;
+        padding: 20px;
+        margin-right: 200px;
+        border-radius: 10px;
+        
+    }
+    .msg-list.open-messages  h4{
+        color: #fff;
+        text-align: center;
+        cursor: pointer;
+    }
+    .msg-list.open-messages  h4{
+        max-height: 440px;
+    }
 
 }

@@ -118,6 +118,16 @@ p {
 
 
 /* ------btn css---- */
+.add-option{
+   background: #fff;
+   color: #0162c8;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    border: 1px solid #0162c8;
+    padding: 10px;
+    border-radius: 25px;
+}
 .submit-btn {
     margin: 30px 33%;
 }
@@ -125,7 +135,7 @@ p {
 .btn1 {
     width: 250px;
     min-height: 60px;
-    font-weight: 800;
+    font-weight: 600;
     font-size: medium;
     text-transform: uppercase;
     padding-top: 8px;
