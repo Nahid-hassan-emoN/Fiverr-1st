@@ -409,8 +409,7 @@ a {
     padding: 10px 25px;
     margin-bottom: 10px;
 }
-
-.msg-list h4 {
+.msg-list h4{
     color: #000000;
     cursor: pointer;
     text-align: center;
@@ -873,84 +872,16 @@ a {
 }
 
 
-/* -------search page------- */
-
-.search-discription {
+.search-discription{
     background: #fff;
     padding: 20px 4% 30Px;
     margin: 12px 0;
 }
-
-.search-discription h3 {
+.search-discription h3{
     color: #000000;
     margin: 25px;
     text-align: center;
-    font-size: 35px;
     font-weight: 800;
-}
-
-.search-discription form {
-    margin-left: 8%;
-}
-
-.box {
-    display: block;
-    margin: 25px auto;
-
-}
-
-.box label {
-    font-size: 25px;
-    font-weight: 600;
-    color: #000;
-}
-
-.from_s {
-    margin-top: 15px;
-
-}
-
-.from_s input {
-    width: 50vw;
-    border: none;
-    border-radius: 5px;
-    height: 45px;
-    background: #dee0e1;
-    font-size: 20px;
-    color: #000000;
-    padding-left: 15px;
-}
-.from_s input :active{
-    border: #045be6;
-}
-.from_s{
-    position: relative;
-}
-.from_s i{
-    position: absolute;
-    right: 15px;
-    top: 6px;
-    cursor: pointer;
-    padding: 9px 8px;
-    color: #000000;
-    transition: 0.3s;
-    
-}
-
-.submit {
-    display: block;
-    cursor: pointer;
-    margin: 15px auto;
-    height: 4rem;
-    width: 12rem;
-    color: #000;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 30px;
-    border: none;
-    background: #4fd1c5;
-    margin-top: 40px;
-    
 }
 
 
@@ -963,7 +894,7 @@ a {
     }
 
     .search-box input {
-        width: auto;
+        width: 50px;
         padding: 5px;
     }
 
@@ -975,44 +906,13 @@ a {
     }
 
     .nav-profile-img {
-        width: 40px;
+        width: 30px;
     }
 
     .logo {
         zoom: 150%;
         margin-right: 3px;
     }
-}
-
-@media only screen and (max-width:991px) {
-    .search-box {
-        background: transparent;
-        width: 10px;
-        padding: 0;
-    }
-
-    .search-box input {
-        width:4vw;
-        padding: 5px;
-        
-    }
-
-
-    .navbar-center ul li a {
-        padding-right: 0;
-        margin: 5px;
-
-    }
-
-    .nav-profile-img {
-        width: 40px;
-    }
-
-    .logo {
-        zoom: 150%;
-        margin-right: 3px;
-    }
-
 }
 
 
@@ -1025,9 +925,9 @@ a {
         width: 10px;
         padding: 0;
     }
-    .search-box input {
-        display: none;
 
+    .search-box input {
+        width: 2.6rem;
     }
 
     .navbar-center ul li a span {
@@ -1122,16 +1022,14 @@ a {
         padding: 20px;
         margin-right: 100px;
         border-radius: 10px;
-
+        
     }
-
-    .msg-list.open-messages h4 {
+    .msg-list.open-messages  h4{
         color: #fff;
         text-align: center;
         cursor: pointer;
     }
-
-    .msg-list.open-messages h4 {
+    .msg-list.open-messages  h4{
         max-height: 440px;
     }
 

@@ -152,10 +152,26 @@ section .details span {
 
 .rows{
     display: flex;
+    margin-bottom: 25px;
 }
 .form-group-first{
-    margin-left: 25px;
+    margin-left: 20px;
+
 }
+.form-group-first label{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000000
+}
+.form-group-first input{
+    background: #e5e5e5;
+    border: none;
+    min-height: 40px;
+    border-radius: 10px;
+    padding-left: 15px;
+    width: 30vw;
+}
+
 /* button css */
 .submit-btn {
     margin: 30px 35%;
